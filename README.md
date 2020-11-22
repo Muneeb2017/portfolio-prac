@@ -1,2 +1,2 @@
 # portfolio-prac
-This is a portfolio set to practice HTML/CSS 
+This is a portfolio site  to practice HTML/CSS 
