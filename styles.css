@@ -8,6 +8,17 @@ body{
 
 }
 .container{
-    padding: 1rem;
-    max-width: 400px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+}
+.container-center{
+    max-width: 650px;
+    margin:auto;
+
+}
+
+.links{
+
+
 }
