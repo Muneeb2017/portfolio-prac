@@ -5,7 +5,8 @@ body{
 }
 :root{
     --primary-color: #524e74;
-  --font-color: #9CA3AF
+  --font-color: #9CA3AF;
+  --off-white: #6B7280;
    
 }
 .container{
@@ -84,4 +85,18 @@ hr{
     font-size: 3rem;
     color:var(--font-color)
 
+}
+/**section**/
+
+.section {
+    padding: 2rem;
+}
+
+.section h1 {
+    text-align: center;
+
+}
+
+.ow {
+    background-color: var(--off-white);
 }
