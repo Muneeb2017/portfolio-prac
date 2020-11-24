@@ -5,6 +5,7 @@ body{
 }
 :root{
     --primary-color: #524e74;
+  --font-color: #9CA3AF
    
 }
 .container{
@@ -66,4 +67,21 @@ hr{
 
 .navigation .link-active {
     font-weight: bold;
+}
+.portfolio {
+    padding: 2rem;
+    padding-top: 5rem;
+
+}
+
+.portfolio-img{
+    max-width: 650px;
+    display: block;
+    margin: auto;
+}
+.portfolio-header{
+
+    font-size: 3rem;
+    color:var(--font-color)
+
 }
