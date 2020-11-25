@@ -34,6 +34,8 @@ hr{
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color: white
+    
+    
 }
 
 .link-secondary {
@@ -88,6 +90,11 @@ hr{
 
 }
 .portfolio-2-img{
+    max-width: 650px;
+    display: block;
+    margin:auto;
+}
+.portfolio-3-img{
     max-width: 650px;
     display: block;
     margin:auto;
