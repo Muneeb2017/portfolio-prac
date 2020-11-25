@@ -87,6 +87,11 @@ hr{
     color:var(--font-color)
 
 }
+.portfolio-2-img{
+    max-width: 650px;
+    display: block;
+    margin:auto;
+}
 /**section**/
 
 .section {
