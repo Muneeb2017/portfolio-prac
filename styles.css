@@ -9,8 +9,6 @@ body {
     --primary-color: #524e74;
     --font-color: #9CA3AF;
     --off-white: #6B7280;
-    display: flex;
-    flex-wrap: wrap;
 
 
 }
@@ -93,6 +91,7 @@ hr {
     max-width: 650px;
     display: block;
     margin: auto;
+    height: auto;
 }
 
 .portfolio-header {
@@ -105,12 +104,14 @@ hr {
     max-width: 650px;
     display: block;
     margin: auto;
+    height: auto;
 }
 
 .portfolio-3-img {
     max-width: 650px;
     display: block;
     margin: auto;
+    height: auto;
 }
 
 /**section**/
