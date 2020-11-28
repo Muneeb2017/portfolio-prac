@@ -1,41 +1,48 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,100&display=swap');
-body{
+
+body {
     font-family: 'Roboto Mono', monospace;
     margin: 0px;
 }
-:root{
+
+:root {
     --primary-color: #524e74;
-  --font-color: #9CA3AF;
-  --off-white: #6B7280;
-   
+    --font-color: #9CA3AF;
+    --off-white: #6B7280;
+    display: flex;
+    flex-wrap: wrap;
+
+
 }
-.container{
+
+.container {
     padding-left: 1rem;
     padding-right: 1rem;
 
 }
-.container-center{
+
+.container-center {
     max-width: 650px;
-    margin:auto;
+    margin: auto;
 
 }
-hr{
-    margin : 1rem 0rem;
+
+hr {
+    margin: 1rem 0rem;
 }
-.link{
+
+.link {
 
     text-decoration: none;
-    padding: 0.5rem 1rem ;
+    padding: 0.5rem 1rem;
     color: white;
 
 }
+
 .link-primary {
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color: white
-    
-    
 }
 
 .link-secondary {
@@ -43,13 +50,16 @@ hr{
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
 }
-.list-non-bullet{
- list-style: none ;
+
+.list-non-bullet {
+    list-style: none;
 }
+
 .list-item-inline {
     display: inline;
     padding: 0rem 0.5rem;
 }
+
 /** navigation**/
 .navigation {
     background-color: var(--primary-color);
@@ -72,33 +82,37 @@ hr{
 .navigation .link-active {
     font-weight: bold;
 }
+
 .portfolio {
     padding: 2rem;
     padding-top: 5rem;
 
 }
 
-.portfolio-img{
+.portfolio-img {
     max-width: 650px;
     display: block;
     margin: auto;
 }
-.portfolio-header{
+
+.portfolio-header {
 
     font-size: 3rem;
-    color:var(--font-color)
+    color: var(--font-color)
+}
 
-}
-.portfolio-2-img{
+.portfolio-2-img {
     max-width: 650px;
     display: block;
-    margin:auto;
+    margin: auto;
 }
-.portfolio-3-img{
+
+.portfolio-3-img {
     max-width: 650px;
     display: block;
-    margin:auto;
+    margin: auto;
 }
+
 /**section**/
 
 .section {
@@ -113,7 +127,8 @@ hr{
 .ow {
     background-color: var(--off-white);
 }
-.footer{
+
+.footer {
     background-color: var(--font-color);
 
     padding: 2 rem 1rem;
