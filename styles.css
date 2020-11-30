@@ -88,7 +88,7 @@ hr {
 }
 
 .portfolio-img {
-    max-width: 650px;
+    width: 100%;
     display: block;
     margin: auto;
     height: auto;
@@ -101,14 +101,14 @@ hr {
 }
 
 .portfolio-2-img {
-    max-width: 650px;
+    width: 100%;
     display: block;
     margin: auto;
     height: auto;
 }
 
 .portfolio-3-img {
-    max-width: 650px;
+    width: 100%;
     display: block;
     margin: auto;
     height: auto;
