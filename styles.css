@@ -40,13 +40,15 @@ hr {
 .link-primary {
     background-color: var(--primary-color);
     border-radius: 0.5rem;
-    color: white
+    color: white;
 }
+
 
 .link-secondary {
     color: var(--primary-color);
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
+    padding-top: 0.5rem;
 }
 
 .list-non-bullet {
@@ -114,6 +116,19 @@ hr {
     height: auto;
 }
 
+.portfolio-4-img {
+    width: 650px;
+    display: block;
+    margin: auto;
+    height: auto;
+}
+
+.misc {
+    text-align: center;
+    color: #6B7280;
+    font-weight: bolder;
+}
+
 /**section**/
 
 .section {
@@ -130,7 +145,7 @@ hr {
 }
 
 .footer {
-    background-color: var(--font-color);
+    background-color: var(--primary-color);
 
     padding: 2 rem 1rem;
 }
